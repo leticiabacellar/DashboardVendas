@@ -1,68 +1,153 @@
-## Dashboard de Vendas
+# 💰 Dashboard de Análise de Faturamento e Vendas
 
-📌 Objetivo
-
-Este projeto tem como objetivo analisar o faturamento e a quantidade de vendas ao longo do tempo, identificar as marcas mais vendidas e visualizar o desempenho de vendas por continente. 
-A ferramenta utilizada para a construção do dashboard foi o Power BI.
-
-## 📊 O que o dashboard apresenta?
-
-O dashboard contém diversas visualizações que permitem uma análise completa das vendas:
-
-1. Evolução do Faturamento e Quantidade Vendida ao longo do tempo
-
-* Um gráfico de colunas exibe a soma do faturamento por mês e ano.
-
-* Uma linha sobreposta indica a soma da quantidade vendida.
-
-2. Resumo do faturamento
+<img width="1280" height="736" alt="image" src="https://github.com/user-attachments/assets/1dfb92da-5dd2-4ac9-b3be-5d83f920cba6" />
 
 
-* Valor total de faturamento: $64,17 milhões.
+## 📌 Sobre o Projeto
 
-* Produto mais vendido destacado: DVD M360 Preto.
+Este projeto apresenta um dashboard desenvolvido no **Power BI** para análise de faturamento e desempenho de vendas. O painel reúne indicadores estratégicos que permitem acompanhar a evolução das vendas ao longo do tempo, identificar os produtos e marcas com maior volume comercializado e analisar a distribuição geográfica do faturamento.
+
+O dashboard foi desenvolvido para fornecer uma visão executiva do desempenho comercial, auxiliando gestores na identificação de tendências e oportunidades de crescimento.
+
+---
+
+## 🎯 Objetivo
+
+Desenvolver um dashboard analítico para monitorar os principais indicadores comerciais, permitindo acompanhar o faturamento, o volume de vendas e o desempenho por produto, marca e região.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Power BI Desktop
+- Power Query
+- DAX
+- Modelagem de Dados
+- Excel
+
+---
+
+## 📂 Etapas do Projeto
+
+### 📥 Coleta dos Dados
+
+- Importação da base de vendas.
+- Organização das informações comerciais.
+- Validação da consistência dos dados.
+
+### 🔄 Tratamento dos Dados
+
+Durante o processo de ETL foram realizadas atividades como:
+
+- Remoção de registros duplicados;
+- Tratamento de valores nulos;
+- Padronização das informações;
+- Ajuste dos tipos de dados;
+- Criação de colunas auxiliares para análise.
+
+### 🧩 Modelagem dos Dados
+
+Foi desenvolvido um modelo de dados relacional para garantir maior desempenho das consultas e das visualizações no Power BI.
+
+---
+
+## 📐 Indicadores Desenvolvidos
+
+O dashboard apresenta os seguintes KPIs:
+
+- 💰 Faturamento Total
+- 📦 Quantidade Vendida
+- ⭐ Produto Mais Vendido
+- 📈 Evolução do Faturamento
+- 🏷️ Quantidade Vendida por Marca
+- 🌎 Faturamento por Continente
+
+---
+
+## 📊 Funcionalidades do Dashboard
+
+O painel permite analisar:
+
+- Evolução do faturamento por mês e ano;
+- Comparação entre faturamento e quantidade vendida;
+- Produto com maior volume de vendas;
+- Ranking das marcas mais vendidas;
+- Distribuição geográfica do faturamento por continente;
+- Indicadores executivos de desempenho comercial.
+
+---
+
+## 📈 Principais Insights
+
+Com este dashboard é possível:
+
+- Monitorar o crescimento do faturamento ao longo do tempo.
+- Identificar períodos com maior volume de vendas.
+- Descobrir quais marcas apresentam melhor desempenho.
+- Identificar o produto mais vendido da empresa.
+- Comparar o desempenho comercial entre diferentes continentes.
+- Apoiar decisões relacionadas ao portfólio de produtos e estratégias comerciais.
+
+---
+
+## ❓ Perguntas de Negócio Respondidas
+
+Este dashboard permite responder questões como:
+
+- Qual foi o faturamento total obtido?
+- Como o faturamento evoluiu ao longo dos meses?
+- Qual é o produto mais vendido?
+- Quais marcas possuem maior volume de vendas?
+- Qual continente concentra a maior parcela do faturamento?
+- Existe relação entre quantidade vendida e faturamento?
+
+---
+
+## 📸 Dashboard
+
+### Visão Geral
+
+<img width="1280" height="736" alt="image" src="https://github.com/user-attachments/assets/648570b8-b9b5-4265-a9ed-7ae70748254b" />
 
 
-3. Quantidade Vendida por Marca
+---
 
-* Marcas com maior volume de vendas destacadas, como Hashtag Toys (162 mil unidades) e Southridge Video (109 mil unidades).
+## 🚀 Competências Demonstradas
 
+Este projeto evidencia conhecimentos em:
 
-4. Mapa de Faturamento por Continente
+- Business Intelligence
+- Power BI
+- Power Query
+- DAX
+- ETL
+- Modelagem de Dados
+- Desenvolvimento de KPIs
+- Storytelling com Dados
+- Visualização de Dados
+- Dashboards Executivos
+- Análise Comercial
+- Análise Exploratória de Dados
 
-* Representação geográfica das vendas, destacando regiões como América do Norte, América do Sul, Europa e África.
+---
 
+## 📚 Aprendizados
 
-## 🔧 Passo a passo do desenvolvimento
+Durante o desenvolvimento deste projeto foram aplicados conceitos como:
 
-1. Coleta de dados:
+- ETL utilizando Power Query;
+- Construção de modelos de dados relacionais;
+- Criação de medidas e KPIs utilizando DAX;
+- Desenvolvimento de visualizações interativas;
+- Análise temporal de vendas;
+- Construção de dashboards executivos voltados ao acompanhamento comercial.
 
-* Importação de dados de vendas contendo informações como data, produtos, marcas, faturamento e localizações.
+---
 
+## 👩‍💻 Desenvolvido por
 
-2. Transformação e modelagem:
+**Letícia Bacellar**
 
-* Tratamento dos dados utilizando o Power Query.
-
-* Criação de medidas e colunas calculadas em DAX para análises específicas.
-
-
-3. Criação das visualizações:
-
-* Gráficos de colunas e linhas para análise temporal.
-
-* Gráficos de barras para comparar marcas mais vendidas.
-
-* Mapa interativo para visualização geográfica do faturamento.
-
-
-4. Customização e layout:
-
-* Aplicação de um design intuitivo e informativo, com cores e fontes padronizadas.
-
-
-## 📌 Conclusão
-
-O dashboard fornece uma visão clara e detalhada do desempenho de vendas da empresa. 
-Ele permite que gestores e analistas identifiquem padrões, tomem decisões baseadas em dados e visualizem o impacto de diferentes produtos e regiões
-no faturamento total. Esse tipo de análise é essencial para otimizar estratégias de vendas e maximizar resultados.
+- 💼 LinkedIn: https://www.linkedin.com/in/leticia-bacellar-96a568205/
+- 💻 GitHub: https://github.com/leticiabacellar
+- 🌐 Portfólio: https://sites.google.com/view/portifolio-da-leticia-bacellar
